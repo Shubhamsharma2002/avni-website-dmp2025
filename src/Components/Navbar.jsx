@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
+import Logo from "../assets/Image/avni-logo-color.png"
 const Navbar = () =>{
     const [menu,setMenu] = useState(false)
      return(
         <>
               <div className="flex justify-around text-black py-6 px-8  md:px-32 bg-white drop-shadow-md">
-                       <div>log</div>
+                       <div>
+                        <img src={Logo}  style={{ width: '100px',  cursor:'pointer'}} alt="Logo"/>
+                       </div>
                        <div className="hidden xl:flex gap-12">
                           <p>hhh</p>
                           <p>hhh</p>
