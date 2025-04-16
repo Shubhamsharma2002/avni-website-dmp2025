@@ -50,7 +50,7 @@ avni-website-dmp2025/
   ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
 - 🌐 Deployment: Netlify  
-  ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+  ![Development Link](https://avni-website-dmp2025-byshubham.netlify.app/)
 
 - 🧪 Version Control: Git & GitHub  
   ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  
