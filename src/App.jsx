@@ -7,11 +7,18 @@ import Navbar from './Components/Navbar'
 const App = () =>{
   return (
     <>
-     <Navbar/>
-     <h1 class="text-3xl font-bold underline">
-     Hello world!
-   </h1>
-     <Footer/>
+     <div className="flex flex-col min-h-screen">
+      <Navbar />
+      
+      <main className="flex-grow p-4">
+        <h1 className="text-3xl font-bold underline">
+          Hello world!
+        </h1>
+        {/* Add your <Routes> here if needed */}
+      </main>
+
+      <Footer />
+    </div>
     
     </>
   ) 
