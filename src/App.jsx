@@ -3,6 +3,7 @@ import React from 'react'
 import './App.css'
 import Footer from './Components/Footer'
 import Navbar from './Components/Navbar'
+import { Outlet } from 'react-router-dom'
 
 const App = () =>{
   return (
@@ -11,9 +12,7 @@ const App = () =>{
       <Navbar />
       
       <main className="flex-grow p-4">
-        <h1 className="text-3xl font-bold underline">
-          Hello world!
-        </h1>
+         <Outlet/>
         {/* Add your <Routes> here if needed */}
       </main>
 
