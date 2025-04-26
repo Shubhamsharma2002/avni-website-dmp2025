@@ -4,7 +4,7 @@ import React from "react";
 const Demo = () =>{
     return(
         <>
-          <div className="">wirking on demo  pahe</div>
+          <div className="text-center">wirking on demo  pahe</div>
         </>
     )
 }
