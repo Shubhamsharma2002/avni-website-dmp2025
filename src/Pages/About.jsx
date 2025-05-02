@@ -33,6 +33,13 @@ const About = () => {
         <li className="mt-1 font-semibold">Avni on Twitter</li>
       </ul>
       </div>
+      <div className=" max-w-3xl mx-auto mt-7 px-4">
+      <h3 className=" font-bold text-2xl mb-4">Credits</h3>
+      <ul className="list-disc">
+        <li className="mt-1 font-bold ">Lokalise, translation service</li>
+      </ul>
+      </div>
+     
       <div className="mt-10">
         <ContactForm />
       </div>
