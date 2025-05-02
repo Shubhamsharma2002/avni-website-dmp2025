@@ -31,6 +31,14 @@ const Demo = () => {
         Avni uses metabase for reporting, analytics and dashboards. You can learn more about metabase here or checkout Avni's own dashboard which has been created using metabase.
         </p>
       </div>
+      <div>
+        <h3 className="font-bold text-2xl mb-4">
+        About the demo and login details
+        </h3>
+        <p>
+        See below the logins that you can use in the app. These demos are inspired from real implementations of Avni, created to demonstrate flexibility and most features of the platform.
+        </p>
+      </div>
     </div>
   );
 };
