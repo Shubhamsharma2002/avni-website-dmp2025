@@ -28,34 +28,41 @@ const ResourceDropdown = () => {
       </button>
 
       {isOpen && (
-        <div className="absolute top-full left-0 mt-2 bg-white shadow-lg rounded p-2 z-50">
+        <div className="absolute top-full left-2 mt-2 bg-white shadow-lg rounded p-5 z-20">
           <NavLink
-            to="/resource/blog"
+            to="/"
+            onClick={() => setIsOpen(false)}
+            className="block px-4 py-2 hover:bg-gray-100"
+          >
+            Case Studies
+          </NavLink>
+          <NavLink
+            to="/"
+            onClick={() => setIsOpen(false)}
+            className="block px-4 py-2 hover:bg-gray-100"
+          >
+            Event
+          </NavLink>
+          <NavLink
+            to="/"
+            onClick={() => setIsOpen(false)}
+            className="block px-4 py-2 hover:bg-gray-100"
+          >
+           Getting Started
+          </NavLink>
+          <NavLink
+            to="/"
+            onClick={() => setIsOpen(false)}
+            className="block px-4 py-2 hover:bg-gray-100"
+          >
+           FAQ 
+          </NavLink>
+          <NavLink
+            to="/"
             onClick={() => setIsOpen(false)}
             className="block px-4 py-2 hover:bg-gray-100"
           >
             Blog
-          </NavLink>
-          <NavLink
-            to="/resource/guides"
-            onClick={() => setIsOpen(false)}
-            className="block px-4 py-2 hover:bg-gray-100"
-          >
-            Guides
-          </NavLink>
-          <NavLink
-            to="/resource/webinars"
-            onClick={() => setIsOpen(false)}
-            className="block px-4 py-2 hover:bg-gray-100"
-          >
-            Webinars
-          </NavLink>
-          <NavLink
-            to="/resource/help-center"
-            onClick={() => setIsOpen(false)}
-            className="block px-4 py-2 hover:bg-gray-100"
-          >
-            Help Center
           </NavLink>
         </div>
       )}

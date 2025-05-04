@@ -3,7 +3,9 @@ import React from "react";
 
 const Features = () =>{
     return(
-         <h1>Features</h1>
+        <div className="border-2 border-blue-600 mx-auto max-w-4xl p-6 rounded-md">
+        <h2 className="font-bold text-3xl mb-6 text-center">This project is only for assingnment purpose</h2>
+        </div>
     )
 }
 
