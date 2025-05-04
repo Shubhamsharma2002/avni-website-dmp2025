@@ -1,9 +1,14 @@
 
 import React from "react";
+import ContactForm from "../Components/ContactForm";
 
 const Homepage = () =>{
     return(
-         <h1>Homepage</h1>
+         <>
+         
+         
+        <ContactForm/> 
+         </>
     )
 }
 
