@@ -147,7 +147,7 @@ const Navbar = () => {
                 } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-400 `
               }
             >
-              Blog
+              Case Studies
             </NavLink>
             <NavLink
               to="/resource/guides"
@@ -158,7 +158,7 @@ const Navbar = () => {
                 } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-400 `
               }
             >
-              Guides
+             Event
             </NavLink>
             <NavLink
               to="/resource/webinars"
@@ -169,7 +169,7 @@ const Navbar = () => {
                 } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-400 `
               }
             >
-              Webinars
+              Getting Started
             </NavLink>
             <NavLink
               to="/resource/help-center"
@@ -180,8 +180,20 @@ const Navbar = () => {
                 } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-400 `
               }
             >
-              Help Center
+              FAQ
             </NavLink>
+            <NavLink
+              to="/resource/help-center"
+              onClick={() => setIsOpen(false)}
+              className={({ isActive }) =>
+                `block  duration-200 font-bold ${
+                  isActive ? "text-orange-700" : "text-blue-700"
+                } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-400 `
+              }
+            >
+              Blog
+            </NavLink>
+            
           </div>
           <div className="flex flex-col  justify-center items-center gap-3">
             <p
