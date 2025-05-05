@@ -18,9 +18,15 @@ import ihmp from "../assets/Image/ihmp.png";
 import phsg from "../assets/Image/phsg.webp";
 import sewa from "../assets/Image/sewa.jpeg";
 import yen from "../assets/Image/yen.png";
+import Banner from "../Components/Banner";
 const Homepage = () => {
   return (
     <>
+     
+      <div className=" w-full">
+        <Banner/>
+      </div>
+    
       <h1 className="text-center font-bold text-xl sm:text-2xl md:text-3xl lg:text-3xl mt-4">
         Comprehensive platform
       </h1>
@@ -115,37 +121,27 @@ const Homepage = () => {
         />
       </div>
       <div className="items-center max-w-5xl mx-auto mt-10 p-6">
-        <h1 className="text-center font-bold text-xl sm:text-2xl md:text-3xl lg:text-3xl mt-6 mb-8 underline">
-          Avni is trusted by
-        </h1>
-        <div className="flex flex-wrap justify-center items-center gap-6">
-          <img
-            src={unicef}
-            alt="unicef logo"
-            className="w-50 h-auto object-contain"
-          />
-          <img
-            src={sewa}
-            alt="sewa logo"
-            className="w-50 h-auto object-contain"
-          />
-          <img
-            src={ihmp}
-            alt="ihmp logo"
-            className="w-50 h-auto object-contain"
-          />
-          <img
-            src={yen}
-            alt="yen logo"
-            className="w-50 h-auto object-contain"
-          />
-          <img
-            src={phsg}
-            alt="phsg logo"
-            className="w-50 h-auto object-contain"
-          />
-        </div>
-      </div>
+  <h1 className="text-center font-bold text-xl sm:text-2xl md:text-3xl lg:text-3xl mt-6 mb-8 underline">
+    Avni is trusted by
+  </h1>
+  
+  <div className="flex flex-wrap justify-center items-center gap-6 mb-8">
+    <img src={unicef} alt="unicef logo" className="w-32 h-auto object-contain" />
+    <img src={sewa} alt="sewa logo" className="w-32 h-auto object-contain" />
+    <img src={ihmp} alt="ihmp logo" className="w-32 h-auto object-contain" />
+    <img src={yen} alt="yen logo" className="w-32 h-auto object-contain" />
+    <img src={phsg} alt="phsg logo" className="w-32 h-auto object-contain" />
+  </div>
+
+  <div className="flex justify-center gap-4">
+    <button className="px-6 py-2 border-2 border-amber-500 text-amber-700 font-semibold rounded hover:bg-amber-100 transition">
+      Case studies
+    </button>
+    <button className="px-6 py-2 border-2 border-amber-500 text-amber-700 font-semibold rounded hover:bg-amber-100 transition">
+      All Projects
+    </button>
+  </div>
+</div>
 
       <div className="flex flex-col items-center max-w-5xl mx-auto bg-amber-200 mt-10 p-6">
         <h1 className="text-center font-bold text-xl sm:text-2xl md:text-3xl lg:text-3xl mt-6 mb-4">
