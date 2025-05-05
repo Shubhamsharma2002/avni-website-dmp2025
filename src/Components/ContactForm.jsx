@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="max-w-xl mx-auto p-6 bg-white shadow-lg rounded-2xl text-center">
+    <div className="max-w-xl mx-auto p-6 bg-white shadow-lg rounded-2xl text-center mt-5 border-2 border-gray-100">
       <h1 className="text-3xl font-black mb-2">Contact Us</h1>
       <h2 className="text-lg font-medium text-gray-600 mb-6">
         We respond to 100% of messages. Ask us anything.
