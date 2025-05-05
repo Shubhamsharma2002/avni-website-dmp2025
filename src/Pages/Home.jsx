@@ -10,6 +10,10 @@ import custo from "../assets/Image/custo.png";
 import patform from "../assets/Image/patform.png";
 import support from "../assets/Image/support.png";
 import Minicard from "../Components/Minicard";
+import Profilecard from "../Components/Profilecard";
+import cofounder from "../assets/Image/cofounder.webp"
+import Drshobha from "../assets/Image/Drshobha.webp"
+import unicef from "../assets/Image/unicef.png"
 const Homepage = () => {
   return (
     <>
@@ -71,7 +75,34 @@ const Homepage = () => {
          <Minicard heading="2. Decide the services you require" para="Use your own technical & program resources for customisation (if available). Use our services for everything else."/>
          <Minicard heading="3. Platform customisation" para= "We work together as one team in performing all the required customisations. We train your team during customisation work." />
          <Minicard heading="4. Begin your fieldwork transformation!!" para="We bring our experience from other projects and provide technical support to make you successful."/>
+          <button className="text-center mt-3 bg-red-500 p-3 text-white font-bold rounded-md cursor-pointer">Schedule Demo</button>
         </div>
+        <div className=" items-center max-w-5xl mx-auto  mt-10 p-6">
+        <h1 className="text-center font-bold text-xl sm:text-2xl md:text-3xl lg:text-3xl mt-6 mb-4 underline">
+        Avni testimonials
+        </h1>
+         <Profilecard img={cofounder} content="Earlier our health workers used to bring their paper records to the MIS data entry person. Now with Avni - our health workers manage the data in the field, make monthly data presentation themselves, and have gained even more respect in the community. We have seen transformational empowerment. Our health workers love Avni."
+           detail="Noah Levinson, Co-founder,"
+           text="Calcutta Kids"
+           goto="https://www.calcuttakids.org/"
+         />
+         <Profilecard img={Drshobha} content="Our adolescent program data used to sit in registers and excel. Because of Avni analytics, we uncovered vulnerable adolescents having different problems. Somewhere high-risk behaviour, while others with high levels of anaemia, much poorer menstrual hygiene practices, sickle cell disease, skin diseases, and so on. Avni has helped us address the most pressing problems of our clients. Our supervisors are now able to schedule their fieldwork more effectively."
+           detail="Dr Shobha Shah and Maitri Vayeda,"
+           text="Sewa Rural"
+           goto="https://sewarural.org/"
+         />
+        </div>
+        {/* <div className=" items-center max-w-5xl mx-auto  mt-10 p-6">
+        <h1 className="text-center font-bold text-xl sm:text-2xl md:text-3xl lg:text-3xl mt-6 mb-4 underline">
+        Avni is trusted by
+        </h1>
+        <div className=" flex flex-wrap flex-col md:flex-row">
+                <img src={unicef} alt="unicef logo" />
+                <img src={unicef} alt="unicef logo" />
+                <img src={unicef} alt="unicef logo" />
+                <img src={unicef} alt="unicef logo" />
+        </div>
+        </div> */}
       <div className="flex flex-col items-center max-w-5xl mx-auto bg-amber-200 mt-10 p-6">
         <h1 className="text-center font-bold text-xl sm:text-2xl md:text-3xl lg:text-3xl mt-6 mb-4">
           In-house data collection applications are unsustainable
