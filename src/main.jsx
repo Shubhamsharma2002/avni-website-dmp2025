@@ -9,12 +9,14 @@ import Demo from './Pages/Demo.jsx';
 import Features from './Pages/Features.jsx';
 import About from './Pages/About.jsx';
 import Pricing from './Pages/Pricing.jsx';
+import Login from './Pages/Login.jsx';
 
 const router = createBrowserRouter(
 
   createRoutesFromElements(
     <Route path='/' element={<App />}>
       <Route index element={<Homepage />} />
+      <Route  path='login' element={<Login/>}/>
       <Route path='demo' element={<Demo />} />
        <Route path='features' element={<Features />} />
        <Route path='about' element={<About />} /> 

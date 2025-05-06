@@ -12,7 +12,7 @@ const Banner = () => {
       />
 
       
-      <div className="absolute inset-0  bg-opacity-40 z-10" />
+      <div className="absolute inset-0  bg-opacity-40 " />
 
       
       <div className="relative z-20 flex flex-col justify-center items-center text-center h-full px-6">

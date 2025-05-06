@@ -8,7 +8,7 @@ const Navbar = () => {
   const [menu, setMenu] = useState(false);
   return (
     <>
-      <div className="flex justify-around text-black py-6 px-8  md:px-32 bg-white relative">
+      <div className="flex justify-around text-black py-6 px-8  md:px-32 bg-white relative z-30">
         <div>
           <Link to="/">
             <img
@@ -62,9 +62,13 @@ const Navbar = () => {
           <ResourceDropdown/>
         </div>
         <div className=" hidden xl:flex  gap-12">
-          <p className=" px-4 py-1 border-2 rounded-md border-blue-500 ">
+          <NavLink to="/login" className={({ isActive }) =>
+              `block  duration-200 font-bold ${
+                isActive ? "text-orange-700" : "text-blue-700"
+              } border-2 border-blue-300 rounded-md px-3 py-1 cursor-pointer hover:bg-blue-500 hover:text-white`
+            }>
             Login
-          </p>
+          </NavLink>
           <p className="border-2 border-blue-300 rounded-md px-3 py-1 cursor-pointer hover:bg-blue-500 hover:text-white">
             Try Avni
           </p>
