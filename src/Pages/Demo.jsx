@@ -3,7 +3,7 @@ import React from "react";
 const Demo = () => {
   return (
     <>
-      <div className="border-2 border-blue-600 mx-auto max-w-4xl p-6 rounded-md">
+      <div className="border-2 border-blue-600 mx-4 sm:mx-auto max-w-4xl p-6 rounded-md sm:m-5">
         <h2 className="font-bold text-3xl mb-6 text-center">Demo</h2>
 
         {/* Left-aligned section starts here */}
@@ -46,8 +46,8 @@ const Demo = () => {
           </p>
         </div>
       </div>
-      <div className="font-bold text-3xl mb-6 text-center mt-5">Demo login</div>
-      <div className="border-2 flex flex-wrap justify-around border-blue-600 mx-auto max-w-4xl p-6 rounded-md">
+      <div className="font-bold text-3xl mb-6 text-center m-5">Demo login</div>
+      <div className="border-2 flex flex-wrap justify-around border-blue-600 mx-4 sm:mx-auto max-w-4xl p-6 rounded-md sm:m-5">
         <div className="border border-blue-400 rounded-md p-1 mt-2  w-64 min-h-[100px]">
           <h1 className="font-semibold text-center text-blue-700">Track the progress of silt excavation from water bodies</h1>
            <div className="text-center text-gray-950 ">
