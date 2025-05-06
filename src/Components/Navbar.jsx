@@ -200,12 +200,13 @@ const Navbar = () => {
             
           </div>
           <div className="flex flex-col  justify-center items-center gap-3">
-            <p
-              onClick={() => setMenu(false)}
-              className=" px-4 py-1 border-2 rounded-md border-blue-500 "
-            >
-              Login
-            </p>
+          <NavLink to="/login" className={({ isActive }) =>
+              `block  duration-200 font-bold ${
+                isActive ? "text-orange-700" : "text-blue-700"
+              } border-2 border-blue-300 rounded-md px-3 py-1 cursor-pointer hover:bg-blue-500 hover:text-white`
+            }onClick={() => setMenu(false)}>
+            Login
+          </NavLink>
             <p
               onClick={() => setMenu(false)}
               className="border-2 border-blue-300 rounded-md px-3 py-1 cursor-pointer hover:bg-blue-500 hover:text-white"
