@@ -38,7 +38,7 @@ const Navbar = () => {
             }
           >
             Demo
-          </NavLink>{" "}
+          </NavLink>
           <NavLink
             to="/pricing"
             className={({ isActive }) =>
@@ -143,7 +143,7 @@ const Navbar = () => {
             </NavLink>
             <small className="text-red-500 underline font-semibold">Resource</small>
             <NavLink
-              to="/"
+              to="/case"
               onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 `block  duration-200 font-bold ${
@@ -154,7 +154,7 @@ const Navbar = () => {
               Case Studies
             </NavLink>
             <NavLink
-              to="/"
+              to="/event"
               onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 `block  duration-200 font-bold ${
@@ -165,7 +165,7 @@ const Navbar = () => {
              Event
             </NavLink>
             <NavLink
-              to="/"
+              to="/get"
               onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 `block  duration-200 font-bold ${
@@ -176,7 +176,7 @@ const Navbar = () => {
               Getting Started
             </NavLink>
             <NavLink
-              to="/"
+              to="/faq"
               onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 `block  duration-200 font-bold ${
@@ -187,7 +187,7 @@ const Navbar = () => {
               FAQ
             </NavLink>
             <NavLink
-              to="/"
+              to="/resourse/blog"
               onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 `block  duration-200 font-bold ${
