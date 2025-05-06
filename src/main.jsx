@@ -10,6 +10,7 @@ import Features from './Pages/Features.jsx';
 import About from './Pages/About.jsx';
 import Pricing from './Pages/Pricing.jsx';
 import Login from './Pages/Login.jsx';
+import NotFound from './Pages/Notfound.jsx';
 
 const router = createBrowserRouter(
 
@@ -21,6 +22,7 @@ const router = createBrowserRouter(
        <Route path='features' element={<Features />} />
        <Route path='about' element={<About />} /> 
        <Route path='pricing' element={<Pricing />} /> 
+       <Route path='*' element={<NotFound/>}/>
     </Route>
   )
 )
