@@ -30,35 +30,35 @@ const ResourceDropdown = () => {
       {isOpen && (
         <div className="absolute top-full left-2 mt-2 bg-white shadow-lg rounded p-5 z-20">
           <NavLink
-            to="/"
+            to="/case"
             onClick={() => setIsOpen(false)}
             className="block px-4 py-2 hover:bg-gray-100"
           >
             Case Studies
           </NavLink>
           <NavLink
-            to="/"
+            to="/event"
             onClick={() => setIsOpen(false)}
             className="block px-4 py-2 hover:bg-gray-100"
           >
             Event
           </NavLink>
           <NavLink
-            to="/"
+            to="/start"
             onClick={() => setIsOpen(false)}
             className="block px-4 py-2 hover:bg-gray-100"
           >
            Getting Started
           </NavLink>
           <NavLink
-            to="/"
+            to="/faq"
             onClick={() => setIsOpen(false)}
             className="block px-4 py-2 hover:bg-gray-100"
           >
            FAQ 
           </NavLink>
           <NavLink
-            to="/"
+            to="/blog"
             onClick={() => setIsOpen(false)}
             className="block px-4 py-2 hover:bg-gray-100"
           >
