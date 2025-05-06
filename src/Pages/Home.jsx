@@ -23,7 +23,7 @@ const Homepage = () => {
   return (
     <>
      
-      <div className=" w-full z-10">
+      <div className=" w-full ">
         <Banner/>
       </div>
     
